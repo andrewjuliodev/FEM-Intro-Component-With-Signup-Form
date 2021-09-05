@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* RESET  */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*WIREFRAMES*/
+.frame {
+  border: 1px red solid;
+}
+
+/*STYLE*/
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+main {
+  width: 1440px;
+  height: 768px;
+  display: flex;
+  justify-content: center;
+}
+
+/*CARD*/
+.content {
+  width: 920px;
+  height: 510px;
+  display: grid;
+  grid-template-columns: ;
+  grid-template-rows: ;
+  grid-template-areas: "left right";
+  background: ;
+  border-radius: ;
+}
