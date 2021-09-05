@@ -51,12 +51,15 @@ main {
 .heavy {
   font-size: 48px;
   font-weight: 700;
-  margin-top: 170px;
+  margin-top: 180px;
+  line-height: 55px;
 }
 
 .light {
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 30px;
+  letter-spacing: 1px;
 }
 
 .right {
