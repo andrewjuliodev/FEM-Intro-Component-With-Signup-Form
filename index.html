@@ -25,10 +25,30 @@
         <div class="right frame">
           <p class='cta frame'><span class='free frame'>Try it free 7 days </span> then $20/mo. thereafter </p>
           <div class='card frame'>
-            <input class='box firstName frame' type="text" placeholder="First Name" />
-            <input class='box lastName frame' type="text" placeholder="Last Name">
-            <input class='box email frame' type="email" placeholder="Email Address">
-            <input class='box password frame' type="text" placeholder="Password">
+            <div class='row1'>
+              <input class='box frame' type="text" placeholder="First Name" />
+              <p class='error firstName'>
+                First Name cannot be empty
+              </p>
+            </div>
+            <div class='row2'>
+              <input class='box frame' type="text" placeholder="Last Name">
+              <p class='error lastName'>
+                Last Name cannot be empty
+              </p>
+            </div>
+            <div class='row3'>
+              <input class='box frame' type="email" placeholder="Email Address">
+              <p class='error email'>
+                Looks like this in not an email
+              </p>
+            </div>
+            <div class='row4'>
+              <input class='box frame' type="text" placeholder="Password">
+              <p class='error password'>
+                Password cannot be empty
+              </p>
+            </div>
             <button class='submit frame'><a href='#'>CLAIM YOUR FREE TRIAL</a></button>
             <p class='agreement frame'>By clicking the button, you are agreeing to our<span class='tsncs frame'> Terms and Services</span></p>
           </div>

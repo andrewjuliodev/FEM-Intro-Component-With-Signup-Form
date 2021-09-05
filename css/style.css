@@ -107,7 +107,7 @@ main {
   margin-left: 40px;
 }
 
-.firstName {
+.row1 {
   margin-top: 40px;
 }
 
@@ -116,11 +116,15 @@ main {
 }
 
 input {
-  padding-left: 40px;
+  padding-left: 38px;
   border: 1px solid hsl(246, 25%, 77%);
   font-weight: 600;
   font-size: 15px;
   color: hsl(249, 10%, 26%);
+  background-image: url("/images/icon-error.svg");
+  background-repeat: no-repeat;
+  background-position: 410px, 0px;
+  background-size: 5%;
 }
 
 input:focus {
@@ -159,4 +163,17 @@ input:focus {
 .tsncs {
   color: hsl(0, 100%, 74%);
   font-weight: 600;
+}
+
+.error {
+  display: none;
+  width: 460px;
+  font-size: 11px;
+  font-style: italic;
+  font-weight: 600;
+  color: hsl(0, 100%, 74%);
+  text-align: end;
+  padding-left: 40px;
+  margin-top: -10px;
+  margin-bottom: 18px;
 }
