@@ -6,14 +6,14 @@
   padding: 0;
 }
 
-/*WIREFRAMES*/
+/*WIREFRAMES
 .frame {
   border: 1px red solid;
-}
+}*/
 
 /*STYLE*/
 body {
-  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -23,19 +23,137 @@ body {
 
 main {
   width: 1440px;
-  height: 768px;
+  height: 800px;
   display: flex;
   justify-content: center;
+  background-image: url("/images/bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%);
 }
 
 /*CARD*/
 .content {
-  width: 920px;
-  height: 510px;
+  width: 1140px;
+  height: 560px;
   display: grid;
-  grid-template-columns: ;
-  grid-template-rows: ;
+  grid-template-columns: 600px 540px;
+  grid-template-rows: 560px;
   grid-template-areas: "left right";
-  background: ;
-  border-radius: ;
+  margin-top: 8%;
+}
+
+.left {
+  width: 600px;
+  height: 560px;
+  grid-area: left;
+  color: white;
+}
+
+.heavy {
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 170px;
+}
+
+.light {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.right {
+  width: 540px;
+  height: 560px;
+  grid-area: right;
+  display: grid;
+  grid-template-columns: 540px;
+  grid-template-rows: 85px 475px;
+  grid-template-areas:
+    "cta"
+    "card";
+}
+
+.cta {
+  width: 540px;
+  height: 60px;
+  grid-area: cta;
+  background: hsl(248, 32%, 49%);
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+}
+
+.free {
+  font-weight: 600;
+}
+
+.card {
+  width: 540px;
+  height: 475px;
+  grid-area: card;
+  background: white;
+  border-radius: 15px;
+}
+
+.box,
+.submit {
+  height: 55px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+.firstName {
+  margin-top: 40px;
+}
+
+.box {
+  width: 420px;
+}
+
+input {
+  padding-left: 40px;
+  border: 1px solid hsl(246, 25%, 77%);
+  font-weight: 600;
+  font-size: 15px;
+  color: hsl(249, 10%, 26%);
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid hsl(249, 10%, 26%);
+}
+
+::placeholder {
+  color: hsl(249, 10%, 26%);
+  font-weight: 600;
+}
+
+.submit {
+  background-color: hsl(154, 59%, 51%);
+  border: none;
+  width: 460px;
+}
+
+.submit a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.submit:hover {
+  background-color: hsl(154, 59%, 51%, 70%);
+}
+
+.agreement {
+  color: hsl(246, 25%, 77%);
+  font-size: 11px;
+  text-align: center;
+}
+
+.tsncs {
+  color: hsl(0, 100%, 74%);
+  font-weight: 600;
 }
